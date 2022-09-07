@@ -28,8 +28,6 @@ public class MainActivity extends AppCompatActivity {
     private Bitmap bitmap = null;
     Button b1;
 
-    private String imageUrl = "https://avatars.githubusercontent.com/u/87969632?v=4";
-    private String imageUrl2 = "https://media-exp1.licdn.com/dms/image/C4E03AQFNInNzJQdfOg/profile-displayphoto-shrink_800_800/0/1619782388762?e=1667433600&v=beta&t=qFeHJEYp2PyWg5btfglRkPitRhTfb_CHCSflRJn0XnE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 checkInternetConenction();
-                downloadImage(imageUrl2);
+                downloadImage("PLEASE USE YOUR OWN IMAGE URL");
             }
         });
     }
